@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.ravi.mychat.Developers">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="70dp"
+        android:background="#EEFF41"
+        android:orientation="vertical"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/myPhoto"
+            android:layout_width="70sp"
+            android:layout_height="85sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="15sp"
+            android:layout_marginTop="26dp"
+            android:background="@android:color/darker_gray"
+            android:padding="2dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/myp" />
+
+        <TextView
+            android:id="@+id/myName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myPhoto"
+            android:textColor="#000"
+            android:layout_marginTop="20sp"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            tools:text="@string/name" />
+
+        <TextView
+            android:id="@+id/myTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textColor="#000"
+            android:layout_below="@+id/myName"
+            android:layout_marginTop="17dp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            tools:text="@string/title" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/contact"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            tools:text="@string/contact"
+            android:layout_above="@+id/myEmail"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="26dp" />
+
+        <TextView
+            android:id="@+id/myEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="@string/email"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:typeface="monospace"
+            tools:text="@string/email"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="39dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "945833241940",
+    "firebase_url": "https://mychat-e1f28.firebaseio.com",
+    "project_id": "mychat-e1f28",
+    "storage_bucket": "mychat-e1f28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945833241940:android:fef8039ab6ab7c49",
+        "android_client_info": {
+          "package_name": "com.example.ravi.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945833241940-dc4bjpivdab68nruo3anmqrlrhmjlfju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ravi.mychat",
+            "certificate_hash": "9a2cd6547e41ce348ed77c0a67a9865159b54db0"
+          }
+        },
+        {
+          "client_id": "945833241940-8v1qiba97pkehq61dc8ebrvtvua4o0i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZrWys8U2f9ccdCt8JM72tcSWLsQ8Y6lM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945833241940-8v1qiba97pkehq61dc8ebrvtvua4o0i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
